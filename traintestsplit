@@ -1,8 +1,8 @@
-from sklearn import datasets
+from sklearn import datasets #used to import the dataset
 import numpy as np
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split #TrainTestSplit is a function available in scikit learn to train the data set
 from sklearn import svm
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score #used to give accuracy of the model
 
 iris = datasets.load_iris()
 #split it in features and labels
